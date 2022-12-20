@@ -18,7 +18,7 @@ app.use(
 
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://jmarks:MongoDB032301@wordle.wwrnkvh.mongodb.net/test');
+mongoose.connect('API KEY');
 
 var userSchema = new mongoose.Schema({ // Schema for saving users
     Username: String,
